@@ -8,7 +8,7 @@ const PORT = 3000;
 app.use(express.json());
 
 // Replace with your actual RapidAPI key
-const RAPIDAPI_KEY = '340b5a39c3msh675d4c77d6f568ep1ffe58jsn10ee648d0d8a';
+const RAPIDAPI_KEY = 'f2eafbba56mshdb9d47ec0491678p1fbd1ejsn7861984e8fc6';
 const RAPIDAPI_HOST = 'hoteldiscoveryapi.p.rapidapi.com';
 
 app.get('/search-hotels', async (req, res) => {
